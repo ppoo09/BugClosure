@@ -12,6 +12,6 @@ class Application : Application() {
         BugClosure.init(applicationContext)
             .setLogPrint(true)
             .setSaveLogFile(true)
-            .setLogFileInformation("fileLog", "TEMPFILE",  2)
+            .setLogFileInformation("fileLog", "logFile",  2)
     }
 }
