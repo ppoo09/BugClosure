@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.keyolla.bugclosure'
+    namespace 'com.keyolla.bugclosure.demo'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.keyolla.bugclosure"
+        applicationId "com.keyolla.bugclosure.demo"
         minSdk 29
         targetSdk 34
         versionCode 1

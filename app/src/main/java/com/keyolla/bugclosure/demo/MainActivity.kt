@@ -1,7 +1,8 @@
-package com.keyolla.bugclosure
+package com.keyolla.bugclosure.demo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.keyolla.bugclosure.BugClosure
 
 
 class MainActivity : AppCompatActivity() {
