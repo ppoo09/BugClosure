@@ -39,24 +39,25 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
-afterEvaluate {
-    publishing {
-        publications {
-            // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.ppoo09'
-                artifactId = 'Bugclosure'
-                version = 'v1.0.6'
-            }
-            // Creates a Maven publication called “debug”.
-            debug(MavenPublication) {
-                // Applies the component for the debug build variant.
-                from components.debug
-                groupId = 'com.github.ppoo09'
-                artifactId = 'Bugclosure'
-                version = 'v1.0.6'
-            }
-        }
-    }
-}
+group ='com.github.ppoo09'
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            // Creates a Maven publication called "release".
+//            release(MavenPublication) {
+//                from components.release
+//                groupId = 'com.github.ppoo09'
+//                artifactId = 'Bugclosure'
+//                version = 'v1.0.6'
+//            }
+//            // Creates a Maven publication called “debug”.
+//            debug(MavenPublication) {
+//                // Applies the component for the debug build variant.
+//                from components.debug
+//                groupId = 'com.github.ppoo09'
+//                artifactId = 'Bugclosure'
+//                version = 'v1.0.6'
+//            }
+//        }
+//    }
+//}
