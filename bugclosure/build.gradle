@@ -22,8 +22,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = '11'
@@ -47,7 +47,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.ppoo09'
                 artifactId = 'Bugclosure'
-                version = 'v1.0.5'
+                version = 'v1.0.6'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -55,7 +55,7 @@ afterEvaluate {
                 from components.debug
                 groupId = 'com.github.ppoo09'
                 artifactId = 'Bugclosure'
-                version = 'v1.0.5'
+                version = 'v1.0.6'
             }
         }
     }
